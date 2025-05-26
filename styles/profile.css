@@ -1,0 +1,26 @@
+section.profile {
+  max-width: 70rem;
+  display: grid;
+  gap: 2rem;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+section.profile > img {
+  border-radius: 100%;
+}
+
+main.container {
+  max-width: 70rem;
+  display: grid;
+  padding: 3rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(20.3rem, 1fr));
+  gap: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main.container > div > section > h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
