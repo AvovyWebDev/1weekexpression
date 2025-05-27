@@ -151,6 +151,19 @@ header {
   animation: shake 1s .125s;
 }
 
+.hd-add-expression::before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: calc(100% + .5rem);
+  height: calc(100% + .5rem);
+  background: linear-gradient(to right, var(--clr-accent-nd), var(--clr-accent));
+  border-radius: .75rem;
+}
+
 @keyframes shake {
   0% {
     transform: rotate(0);
@@ -170,17 +183,4 @@ header {
   100% {
     transform: rotate(0) scale(1);
   }
-}
-
-.hd-add-expression::before {
-  z-index: -1;
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  width: calc(100% + .5rem);
-  height: calc(100% + .5rem);
-  background: linear-gradient(to right, var(--clr-accent-nd), var(--clr-accent));
-  border-radius: .75rem;
 }

@@ -120,25 +120,72 @@ p {
   background: var(--clr-bg);
   padding: 2rem;
   border-radius: 1rem;
-  -webkit-box-shadow: 0px 0px 2rem 1rem var(--clr-bg-light) inset;
-  -moz-box-shadow: 0px 0px 2rem 1rem var(--clr-bg-light) inset;
+  z-index: 0;
   box-shadow: 0px 0px 2rem 1rem var(--clr-bg-light) inset;
+  opacity: 0;
 }
 
 .tile::before {
-  border-radius: 1rem;
-  z-index: -1;
   content: '';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  width: calc(100% + .25rem);
-  height: calc(100% + .25rem);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  padding: 2px;
   background: linear-gradient(270deg, var(--clr-accent-nd), var(--clr-accent), var(--clr-accent-nd));
   background-size: 200% 100%;
   animation: moveGradient 5s linear infinite;
+  z-index: -1;
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: destination-out;
+  box-sizing: border-box;
 }
+
+.animate-tile {
+  animation: fadein 1s forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    translate: 0 -2rem;
+  }
+  100% {
+    opacity: 1;
+    translate: 0;
+  }
+}
+
+
+/* Primary button */
+
+.btn-primary {
+  padding: .25rem 1rem;
+  background: var(--clr-accent-nd);
+  border-radius: .25rem;
+  border: .125rem solid var(--clr-accent-nd);
+  cursor: pointer;
+  background: var(--clr-accent-nd);
+  transition: .125s;
+  box-shadow: 0 0 1rem 1px var(--clr-bg),
+              0 0 .5rem 1px var(--clr-accent-nd);
+}
+
+.btn-primary:hover {
+  background: var(--clr-bg);
+  box-shadow: 0 0 1rem 1px var(--clr-bg),
+              0 0 .5rem .125rem var(--clr-accent-nd),
+              0 0 .25rem 1px var(--clr-accent-nd) inset;
+}
+
 
 @keyframes moveGradient {
   0% {

@@ -20,26 +20,46 @@ require_once "includes/header.php";
 
 <section class="expressions">
   <article class="tile">
+    <button class="likes">
+      <img src="images/svg/heart.svg" alt="" class="icon">
+      24
+    </button>
     <p>TeściksUCH <span class="small">@teściksuch</span></p>
     <h4>Tytuł</h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eius praesentium dolor blanditiis reiciendis aliquam asperiores libero totam ullam quo quaerat quod ipsa, itaque accusantium porro fugit perferendis? Quibusdam sint nulla doloribus adipisci debitis. Natus, pariatur.</p>
   </article>
   <article class="tile">
+    <button class="likes liked">
+      <img src="images/svg/heart.svg" alt="" class="icon">
+      24
+    </button>
     <p>TeściksUCH <span class="small">@teściksuch</span></p>
     <h4>Tytuł</h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eius praesentium dolor blanditiis reiciendis aliquam asperiores libero totam ullam quo quaerat quod ipsa, itaque accusantium porro fugit perferendis? Quibusdam sint nulla doloribus adipisci debitis. Natus, pariatur.</p>
   </article>
   <article class="tile">
+    <button class="likes">
+      <img src="images/svg/heart.svg" alt="" class="icon">
+      24
+    </button>
     <p>TeściksUCH <span class="small">@teściksuch</span></p>
     <h4>Tytuł</h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eius praesentium dolor blanditiis reiciendis aliquam asperiores libero totam ullam quo quaerat quod ipsa, itaque accusantium porro fugit perferendis? Quibusdam sint nulla doloribus adipisci debitis. Natus, pariatur.</p>
   </article>
   <article class="tile">
+    <button class="likes liked">
+      <img src="images/svg/heart.svg" alt="" class="icon">
+      24
+    </button>
     <p>TeściksUCH <span class="small">@teściksuch</span></p>
     <h4>Tytuł</h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eius praesentium dolor blanditiis reiciendis aliquam asperiores libero totam ullam quo quaerat quod ipsa, itaque accusantium porro fugit perferendis? Quibusdam sint nulla doloribus adipisci debitis. Natus, pariatur.</p>
   </article>
   <article class="tile">
+    <button class="likes liked">
+      <img src="images/svg/heart.svg" alt="" class="icon">
+      24
+    </button>
     <p>TeściksUCH <span class="small">@teściksuch</span></p>
     <h4>Tytuł</h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eius praesentium dolor blanditiis reiciendis aliquam asperiores libero totam ullam quo quaerat quod ipsa, itaque accusantium porro fugit perferendis? Quibusdam sint nulla doloribus adipisci debitis. Natus, pariatur.</p>

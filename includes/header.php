@@ -30,11 +30,11 @@
   <nav class="hd-nav">
     <a href="./"><h6>Home</h6></a>
     <a href="information.php"><h6>What's this about?</h6></a>
+    <a href="#"><h6>Rules & privacy</h6></a>
+    <a href="#"><h6>FAQ</h6></a>
     <a href="profile.php"><h6>Profile</h6></a>
     <a href="#"><h6>Rankings</h6></a>
     <a href="#"><h6>Statistics</h6></a>
-    <a href="#"><h6>Rules & privacy</h6></a>
-    <a href="#"><h6>FAQ</h6></a>
     <a href="#"><h6>Contact</h6></a>
   </nav>
   <a class="hd-add-expression" href="" aria-label="Add a new Expression">
